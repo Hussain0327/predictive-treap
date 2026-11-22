@@ -35,3 +35,4 @@ function(pt_add_test name source)
 endfunction()
 
 pt_add_test(smoke_test tests/smoke_test.cc)
+pt_add_test(node_arena_test tests/unit/node_arena_test.cc)
